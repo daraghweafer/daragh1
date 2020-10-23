@@ -249,9 +249,11 @@ body main div p.signatureBoys {
 }
 body main div.container {
   display: flex;
+  flex-wrap: wrap;
 }
 body main div.container img {
   max-width: 50%;
+  padding-bottom: 1%;
 }
 body main div.container img:hover {
   width: 75%;
