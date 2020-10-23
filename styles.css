@@ -229,14 +229,13 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-main img {
+body main img {
   max-width: 100%;
 }
-main h1 {
+body main h1 {
   font-size: 20rem;
 }
-main p {
+body main p {
   font-size: 10rem;
 }
 
