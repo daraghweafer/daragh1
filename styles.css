@@ -229,6 +229,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+body main h1 {
+  font-size: 20rem;
+}
+body main p {
+  font-size: 10rem;
+}
 
 .visuallyhidden:not(:focus):not(:active) {
   position: absolute;

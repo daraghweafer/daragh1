@@ -16,6 +16,14 @@ body{
 	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	display: flex;
 	flex-direction: column;
+	main{
+		h1{
+			font-size: 20rem;
+		}
+		p{
+			font-size: 10rem;
+		}
+	}
 }
 
 .visuallyhidden:not(:focus):not(:active) {
