@@ -247,11 +247,20 @@ body main div p.signatureBoys {
   font-size: 2rem;
   font-family: "Indie Flower", cursive;
 }
+body main div.container {
+  display: flex;
+}
 body main div.container img {
   max-width: 50%;
 }
+body main div.container img:hover {
+  width: 75%;
+}
 body main div.container img.left {
   padding-right: 1%;
+}
+body main div.container img.left:hover {
+  width: 75%;
 }
 
 .visuallyhidden:not(:focus):not(:active) {
@@ -269,6 +278,12 @@ body main div.container img.left {
 
 header {
   width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  main div.container img {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
