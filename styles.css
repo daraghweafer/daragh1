@@ -231,7 +231,7 @@ body {
 }
 body main {
   margin: 1%;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 body main img {
   width: 100%;
@@ -240,11 +240,11 @@ body main div {
   padding: 5%;
 }
 body main div p.signature {
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: "Dancing Script", cursive;
 }
 body main div p.signatureBoys {
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: "Indie Flower", cursive;
 }
 body main div.container img {
