@@ -229,11 +229,29 @@ body {
   display: flex;
   flex-direction: column;
 }
-body main img {
-  max-width: 100%;
+body main {
+  margin: 1%;
+  font-size: 3rem;
 }
-body main div p {
-  font-size: 2rem;
+body main img {
+  width: 100%;
+}
+body main div {
+  padding: 5%;
+}
+body main div p.signature {
+  font-size: 1rem;
+  font-family: "Dancing Script", cursive;
+}
+body main div p.signatureBoys {
+  font-size: 1rem;
+  font-family: "Indie Flower", cursive;
+}
+body main div.container img {
+  max-width: 50%;
+}
+body main div.container img.left {
+  padding-right: 1%;
 }
 
 .visuallyhidden:not(:focus):not(:active) {
