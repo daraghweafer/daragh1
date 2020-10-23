@@ -253,15 +253,9 @@ body main div.container {
 }
 body main div.container img {
   max-width: 50%;
-  padding-bottom: 1%;
+  padding: 1%;
 }
 body main div.container img:hover {
-  width: 75%;
-}
-body main div.container img.left {
-  padding-right: 1%;
-}
-body main div.container img.left:hover {
   width: 75%;
 }
 
@@ -283,8 +277,8 @@ header {
 }
 
 @media only screen and (max-width: 480px) {
-  main div.container img {
-    max-width: 100%;
+  body main div.container img {
+    width: 100%;
   }
 }
 
