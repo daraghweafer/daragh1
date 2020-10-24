@@ -19,6 +19,19 @@ body{
 	flex-direction: column;
 	// background-image: url(..assets/restaurent.png);	
 	main{
+		.run {
+		    padding: 10px 6px;
+		    margin: 0.75em 0;
+		    background: rgba(255,255,255,0.1);
+		    border: none;
+		    outline: none;
+		    color: #eee;
+		    font-weight: bold;
+		    cursor: pointer;
+		    user-select: none;
+		    opacity: 0.6;
+		    transition: opacity 100ms ease;
+		}
 		margin: 1%;
 		font-size: 4rem;
 		img{
