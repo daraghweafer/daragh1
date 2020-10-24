@@ -17,12 +17,8 @@ body{
 
 	display: flex;
 	flex-direction: column;
-	background-image: url(..assets/restaurent.png);	
+	// background-image: url(..assets/restaurent.png);	
 	main{
-		.backgroundImage{
-			opacity: 0.2;
-			background-size: cover;
-		}
 		margin: 1%;
 		font-size: 4rem;
 		img{
