@@ -233,6 +233,19 @@ body main {
   margin: 1%;
   font-size: 4rem;
 }
+body main .run {
+  padding: 10px 6px;
+  margin: 0.75em 0;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  color: #eee;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.6;
+  transition: opacity 100ms ease;
+}
 body main img {
   width: 100%;
 }
