@@ -220,11 +220,11 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   color: CORNFLOWERBLUE;
-  background: #ECE9E6;
+  background: #D3CCE3;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: url("..assets/restaurent.png") no repeat left top, linear-gradient(to right, #E9E4F0, #D3CCE3);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   flex-direction: column;
@@ -254,6 +254,7 @@ body main div.container {
 body main div.container img {
   max-width: 50%;
   padding: 1%;
+  object-fit: cover;
 }
 body main div.container img:hover {
   width: 75%;
